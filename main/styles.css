@@ -1,6 +1,92 @@
 body{
+    margin: 0;
+    padding: 0;
     background-image: url(../images/pattern-background-desktop.svg);
-    background-position-x:center;
+    background-position:center -200px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.container{
+    width: 450px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 20px 30px grey;
+}
+
+.hero img{
+    border-radius: 20px 20px 0 0 ;
+}
+
+h1{
+    margin-top: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5rem;
+}
+
+.plan{
+    display:flex ;
+    background-color: rgba(184, 221, 245, 0.3);
+    border-radius: 20px;
+    width: 80%;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.plan img{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+
+.plan p{
+    text-align: left;
+}
+.plan p b{
+    color: black;
+}
+
+.plan a{
+    font-weight: 600;
+    margin-top: 30px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslateblue;
+}
+
+.btn{
+    text-align: center;
+    line-height: 45px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color:darkslateblue;
+    width: 80%;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px grey;
+}
+h3.cancel{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: grey;
+    padding: 10px 0 30px;
 }
