@@ -1,0 +1,126 @@
+$Paleblue: hsl(225, 100%, 94%);
+$Brightblue: hsl(245, 75%, 52%);
+$Verypaleblue: hsl(225, 100%, 98%);
+$Desaturatedblue: hsl(224, 23%, 55%);
+$Darkblue: hsl(223, 47%, 23%);
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: $Verypaleblue;
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-position:center -200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Red Hat Display', sans-serif;
+
+    /* Main container */
+
+    .container{
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        max-width: 450px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0 10px 20px $Darkblue;
+        
+        .hero img {
+            border-radius: 20px 20px 0 0 ;
+            width: 100%;
+        }
+        
+        /* Title and description */
+
+        h1{
+            margin-top: 30px;
+            text-align: center;
+            font-weight: 900;
+            color: $Darkblue;
+        }
+
+        p{
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+            text-align: center;
+            line-height: 1.5rem;
+            color: $Desaturatedblue;
+        }
+
+        /* Custom Plan */
+
+        .plan{
+            display:flex ;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+            height: 80px;
+            border-radius: 20px;
+            background-color: $Verypaleblue;
+
+            img{
+                margin: 10px;
+                width: 60px;
+                height: 60px;
+            }
+
+            p{
+                text-align: left;
+                color: $Desaturatedblue;
+            }
+    
+            b{
+                font-weight: 900 ;
+                color: $Darkblue;
+            }
+            
+            a{
+                margin-top: 30px;
+                margin-right: 20px;
+                font-weight: 600;
+                color: $Brightblue;
+
+                &:hover{
+                    cursor: pointer;
+                    color: #766cf1;
+                    text-decoration: none;
+                }
+            }
+        }
+        
+        /* Payment buttom */
+
+        .btn{
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+            height: 45px;
+            border-radius: 10px;
+            background-color:$Brightblue;
+            box-shadow: 0 4px 15px $Darkblue;
+            font-weight: 700;
+            &:hover{
+                cursor: pointer;
+                background-color: #766cf1;
+            }
+            p{
+                padding: 12px;
+                color: white;
+            }
+        }
+
+        /* Cancel buttom */
+
+        .cancel{
+            padding: 10px 0 30px;
+            font-weight: 700;
+            
+            &:hover{
+                cursor: pointer;
+                color: $Darkblue;
+            }
+        }
+    }
+}

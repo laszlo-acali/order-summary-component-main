@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f7ff;
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-position: center -200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Red Hat Display', sans-serif;
+  /* Main container */
+}
+
+body .container {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 450px;
+  background-color: white;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 10px 20px #1f2f56;
+          box-shadow: 0 10px 20px #1f2f56;
+  /* Title and description */
+  /* Custom Plan */
+  /* Payment buttom */
+  /* Cancel buttom */
+}
+
+body .container .hero img {
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+}
+
+body .container h1 {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: 900;
+  color: #1f2f56;
+}
+
+body .container p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-align: center;
+  line-height: 1.5rem;
+  color: #7280a7;
+}
+
+body .container .plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 80px;
+  border-radius: 20px;
+  background-color: #f5f7ff;
+}
+
+body .container .plan img {
+  margin: 10px;
+  width: 60px;
+  height: 60px;
+}
+
+body .container .plan p {
+  text-align: left;
+  color: #7280a7;
+}
+
+body .container .plan b {
+  font-weight: 900;
+  color: #1f2f56;
+}
+
+body .container .plan a {
+  margin-top: 30px;
+  margin-right: 20px;
+  font-weight: 600;
+  color: #3829e0;
+}
+
+body .container .plan a:hover {
+  cursor: pointer;
+  color: #766cf1;
+  text-decoration: none;
+}
+
+body .container .btn {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 45px;
+  border-radius: 10px;
+  background-color: #3829e0;
+  -webkit-box-shadow: 0 4px 15px #1f2f56;
+          box-shadow: 0 4px 15px #1f2f56;
+  font-weight: 700;
+}
+
+body .container .btn:hover {
+  cursor: pointer;
+  background-color: #766cf1;
+}
+
+body .container .btn p {
+  padding: 12px;
+  color: white;
+}
+
+body .container .cancel {
+  padding: 10px 0 30px;
+  font-weight: 700;
+}
+
+body .container .cancel:hover {
+  cursor: pointer;
+  color: #1f2f56;
+}
+/*# sourceMappingURL=style.css.map */
